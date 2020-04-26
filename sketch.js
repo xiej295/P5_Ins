@@ -4,7 +4,7 @@ var lineTwo;
 var lineThree;
 
 function preload() {
-  for (var i=0; i<5; i++) {
+  for (var i=0; i<37; i++) {
     img[i] = loadImage("img"+i+".png");
   }
 }
