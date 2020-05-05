@@ -2,24 +2,24 @@ var img = [];
 var lineOne;
 var lineTwo;
 var lineThree;
-var img2;
+// var img2;
 
 function preload() {
-  img2 = loadImage('outline_1.png');
+  // img2 = loadImage('outline_1.png');
   for (var i=0; i<37; i++) {
     img[i] = loadImage("img"+i+".png");
   }
 }
 
 function setup() {
-  createCanvas(1440, 810);
+  createCanvas(windowWidth, windowHeight);
   background(0);
   noCursor();
   frameRate(8);
 }
 
 function draw() {
-  image(img2, 0, 0, 1440, 810)
+  // image(img2, 0, 0, 1440, 810)
   lineOne = windowHeight/4;
   lineTwo = lineOne*2;
   lineThree = lineOne*3;
